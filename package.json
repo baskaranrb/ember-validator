@@ -36,7 +36,8 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.17.2",
+    "ember-cli-babel": "^6.6.0",
+    "moment": "^2.24.0",
     "rsvp": "^4.8.4"
   },
   "devDependencies": {

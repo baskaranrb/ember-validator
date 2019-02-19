@@ -7,7 +7,7 @@ module.exports = function(defaults) {
     // Add options here
   });
 
-  app.import(app.bowerDirectory + '/moment/min/moment.min.js');
+  // app.import(app.bowerDirectory + '/moment/min/moment.min.js');
 
   /*
     This build file specifies the options for the dummy test app of this
