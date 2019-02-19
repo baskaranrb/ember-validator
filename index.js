@@ -35,9 +35,9 @@ module.exports = {
 
     // Import moment library only when `useDateValidator` is set to true. By default moment library is imported.
     // If you dont want to use date validator then set `useDateValidator` to false.
-    if (target.import && _useDateValidator) {
-      this.importBowerDependencies(target);
-    }
+    // if (target.import && _useDateValidator) {
+    //   this.importBowerDependencies(target);
+    // }
   },
 
   importBowerDependencies: function(app) {
